@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Daily News - Global AI News Aggregator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="bg-gradient"></div>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">🤖</div>
+                <span>AI Daily News</span>
+            </div>
+            <div class="nav-right">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="zh">中文</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-i18n="hero.title">
+                    Stay Ahead with Global AI News
+                </h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">
+                    Aggregating the latest AI news from around the world, updated daily.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://github.com/GroundData/ai-daily-news"
+                       class="btn btn-primary" target="_blank" data-i18n="hero.getStarted">
+                        Get Started
+                    </a>
+                    <a href="#features" class="btn btn-secondary" data-i18n="hero.learnMore">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="tech-orb">
+                    <div class="orb-ring orb-ring-1"></div>
+                    <div class="orb-ring orb-ring-2"></div>
+                    <div class="orb-ring orb-ring-3"></div>
+                    <div class="orb-core">
+                        <div class="core-glow"></div>
+                        <span class="core-icon">⚡</span>
+                    </div>
+                    <div class="orb-particles">
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title" data-i18n="features.title">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3 data-i18n="features.global.title">Global Coverage</h3>
+                    <p data-i18n="features.global.desc">News from sources worldwide, all in one place.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⏰</div>
+                    <h3 data-i18n="features.timezone.title">Local Time Support</h3>
+                    <p data-i18n="features.timezone.desc">Automatic timezone detection for users worldwide.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3 data-i18n="features.skill.title">Skill Integration</h3>
+                    <p data-i18n="features.skill.desc">Seamless integration with Claude Code as a skill.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📅</div>
+                    <h3 data-i18n="features.archive.title">Historical Archive</h3>
+                    <p data-i18n="features.archive.desc">Access past news by date for trend analysis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="values" class="core-values">
+        <div class="container">
+            <h2 class="section-title" data-i18n="values.title">核心价值</h2>
+            <div class="values-content">
+                <div class="values-desc">
+                    <p data-i18n="values.description">帮助 AI 应用开发者、AI PM、独立开发者，用更少时间掌握与自己相关的 AI 关键变化，减少噪音和漏看，更快形成下一步判断。</p>
+                </div>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">🚫</div>
+                        <p data-i18n="values.point1">不做泛 AI 资讯覆盖</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">🚫</div>
+                        <p data-i18n="values.point2">不替用户判断未来</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">🚫</div>
+                        <p data-i18n="values.point3">不追求“大而全”</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">✅</div>
+                        <p data-i18n="values.point4">只做高信号、低噪音、与 builder 相关的 AI 变化组织</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="architecture">
+        <div class="container">
+            <h2 class="section-title" data-i18n="architecture.title">System Architecture</h2>
+            <div class="architecture-diagram">
+                <div class="arch-layer">
+                    <div class="arch-box">
+                        <div class="arch-label">L3</div>
+                        <div class="arch-title" data-i18n="architecture.l3">Client Skill</div>
+                    </div>
+                </div>
+                <div class="arch-arrow">↓</div>
+                <div class="arch-layer">
+                    <div class="arch-box">
+                        <div class="arch-label">L2</div>
+                        <div class="arch-title" data-i18n="architecture.l2">API Service</div>
+                    </div>
+                </div>
+                <div class="arch-arrow">↓</div>
+                <div class="arch-layer">
+                    <div class="arch-box">
+                        <div class="arch-label">L1</div>
+                        <div class="arch-title" data-i18n="architecture.l1">Data Pipeline</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2 data-i18n="cta.title">Ready to Start?</h2>
+            <p data-i18n="cta.subtitle">Get the AI Daily News skill and stay updated with the latest in AI.</p>
+            <a href="https://github.com/GroundData/ai-daily-news"
+               class="btn btn-primary" target="_blank" data-i18n="cta.cta">
+                Get AI Daily News Skill
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">🤖</div>
+                    <span>AI Daily News</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/GroundData/ai-daily-news" target="_blank">GitHub</a>
+                    <span>•</span>
+                    <a href="mailto:fufei@ainewparadigm.cn">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AI Daily News. www.ainewparadigm.cn <span>•</span> <a href="https://beian.miit.gov.cn/" target="_blank" style="color: var(--text-secondary); text-decoration: none;">沪ICP备2023017860号</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
